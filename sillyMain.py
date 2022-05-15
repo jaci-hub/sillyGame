@@ -7,6 +7,7 @@ def main():
     #intro notice about the game
     print('*'*15+ ' ABOUT THE GAME '+ '*'*15)
     print('- It is NOT case sensitive')
+    print('- Words CANNOT be played twice')
     print('- Accronyms/abbreviations are valid')
     print('   e.g. CEO- Chief Executive Officer')
     print('   e.g. MN- Minnesota')

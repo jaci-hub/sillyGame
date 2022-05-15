@@ -7,7 +7,9 @@ def wordIsNew(aWord):
         return True
 #function to check if the word exists
 def evaluateWord(aWord):
-    if wordIsNew(aWord)==False:
+    if len(aWord)==1 and aWord!='I': #single letter are not valid, except "I", which is a pronoun
+        return False
+    elif wordIsNew(aWord)==False:
         return False
     else: 
         return helperVariables.englishDictionary.check(aWord)
